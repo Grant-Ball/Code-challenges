@@ -6,12 +6,17 @@
 # Purpose:Practice creating loops.                      
 
 # Basic for loop
-names="Stan Kyle Cartman"
-for name in $names
+while [ $zebra =="y" ]
+
 do
-  echo $name
+ps aux
+
+read -p "please enter a PID to kill: " pid_to_kill
+
+echo $pid_to_kill
+
+read -p "would you like to kill again? (y/n) " zebra
+
 done
 
-echo "Script complete"
-
-# End
+echo "Script finished"
