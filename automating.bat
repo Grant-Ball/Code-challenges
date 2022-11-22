@@ -1,3 +1,10 @@
+:: Script:Automating tasks
+:: Author: Grant Ball
+:: Last Date Revised: 11-21-22
+:: Purpose: To learn how to create automated processes and test them
+
+:: Source: https://github.com/superswan/Powershell-SysAdmin
+
 :: Enable File and Printer Sharing
 
 Set-NetFirewallRule -DisplayGroup "File and printer sharing" -Enabled True
